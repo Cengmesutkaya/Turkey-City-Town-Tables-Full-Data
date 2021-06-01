@@ -13,7 +13,6 @@ CREATE TABLE [dbo].[City](
 	[Id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
-
 GO
 /****** Object:  Table [dbo].[Town]    Script Date: 11.02.2019 10:31:14 ******/
 SET ANSI_NULLS ON
@@ -29,10 +28,8 @@ CREATE TABLE [dbo].[Town](
 	[Id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
-
 GO
 SET IDENTITY_INSERT [dbo].[City] ON 
-
 INSERT [dbo].[City] ([Id], [Name]) VALUES (1, N'Adana')
 INSERT [dbo].[City] ([Id], [Name]) VALUES (2, N'Adıyaman')
 INSERT [dbo].[City] ([Id], [Name]) VALUES (3, N'Afyon')
